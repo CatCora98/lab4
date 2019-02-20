@@ -10,9 +10,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by wkp3 on 2/9/17.
- */
+
 
 public class ColorAdapter extends BaseAdapter {
 
