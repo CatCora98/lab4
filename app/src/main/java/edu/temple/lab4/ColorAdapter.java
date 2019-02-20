@@ -45,7 +45,7 @@ public class ColorAdapter extends BaseAdapter {
         t.setText( colors.get(position) );
         t.setGravity(Gravity.CENTER_HORIZONTAL);
         t.setTextSize(24);
-        t.setPadding(10, 8, 10, 8);
+        t.setPadding(10, 10, 10, 10);
         try {
             t.setBackgroundColor(Color.parseColor( colors.get(position) ));
         } catch( Exception e ) {
